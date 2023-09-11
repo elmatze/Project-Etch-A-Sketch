@@ -1,0 +1,15 @@
+.father {
+    background-color: aquamarine;
+    opacity: 100%;
+    display: block;
+}
+
+div {
+    background-color: black;
+    opacity: 50%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 6.25%;
+}
+
