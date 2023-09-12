@@ -1,15 +1,17 @@
 .father {
     background-color: aquamarine;
     opacity: 100%;
-    display: block;
+    display: flex;
+    flex-flow: column wrap;
+    height: 800px;
+    width: 800px;
+
 }
 
 div {
     background-color: black;
     opacity: 50%;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
+    height: 6.25%;
     width: 6.25%;
 }
 
