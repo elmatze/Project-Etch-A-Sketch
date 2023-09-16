@@ -3,15 +3,15 @@
     opacity: 100%;
     display: flex;
     flex-flow: row wrap;
-    height: 1096px;
-    width: 1096px;
+    height: 1000px;
+    width: 1000px;
     /* Since the .father-div has to be a square and I can't set the height of a div to any percentage,
     I gave them exact pixel-values to work with for now - but they are totally adaptable */
 }
 
-.father:hover {
+/* .father:hover {
     background-color: white;
-}
+} */
 
 div {
     background-color: white;
@@ -19,8 +19,8 @@ div {
     height: 6.25%;
     width: 6.25%;
 }
-
+/* 
 div:hover {
     background-color: gray;
-}
+} */
 
