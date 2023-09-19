@@ -9,18 +9,11 @@
     I gave them exact pixel-values to work with for now - but they are totally adaptable */
 }
 
-/* .father:hover {
-    background-color: white;
-} */
-
 div {
     background-color: white;
     opacity: 50%;
-    height: 6.25%;
+    height: 6.25;
     width: 6.25%;
 }
-/* 
-div:hover {
-    background-color: gray;
-} */
+
 
