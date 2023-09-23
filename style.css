@@ -1,10 +1,14 @@
+* {
+    font-family: Abel, sans-serif;
+}
+
 .father {
     background-color: white;
     opacity: 100%;
     display: flex;
     flex-flow: row wrap;
-    height: 1000px;
-    width: 1000px;
+    height: 500px;
+    width: 500px;
     /* Since the .father-div has to be a square and I can't set the height of a div to any percentage,
     I gave them exact pixel-values to work with for now - but they are totally adaptable */
 }
