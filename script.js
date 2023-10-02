@@ -1,11 +1,10 @@
 const father = document.querySelector(".father");
 const slider = document.querySelector(".slider");
 const statevalue = document.getElementById("statevalue");
-const refreshBtn = document.querySelector(".refresh");
 
 statevalue.innerHTML = slider.value; // Display the -default- (16) slider value
 
-createDefaultGrid()
+createDefaultGrid();
 
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
@@ -24,7 +23,7 @@ function createDefaultGrid() {
     div.style.width = 1/16;
 
     div.addEventListener("mouseenter", 
-      () => div.setAttribute("style", "background-color: gray",));
+      () => div.setAttribute("style", "background-color: rgba(180, 180, 180, 0.9)",));
     div.addEventListener("mouseenter",
       () => div.style.height = 1/16);
     div.addEventListener("mouseenter",
@@ -40,7 +39,7 @@ function createGrid() {
     div.style.width = divSize;
 
     div.addEventListener("mouseenter", 
-      () => div.setAttribute("style", "background-color: gray",));
+      () => div.setAttribute("style", "background-color: rgba(180, 180, 180, 0.9)",));
     div.addEventListener("mouseenter",
       () => div.style.height = divSize);
     div.addEventListener("mouseenter",

@@ -2,7 +2,24 @@
     font-family: Abel, sans-serif;
 }
 
+body {
+    height: 840px;
+    background-image: url(img/pexels-pixabay-459301.jpg);
+    background-size: 100% 1000px;
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap; 
+  }
+
+h1 {
+    margin-bottom: -130px;
+    height: 50px;
+    color: white;
+}
+
+
 .father {
+    margin: 0px 27% 0px 27%;
     background-color: white;
     opacity: 100%;
     display: flex;
@@ -11,6 +28,8 @@
     width: 500px;
     /* Since the .father-div has to be a square and I can't set the height of a div to any percentage,
     I gave them exact pixel-values to work with for now - but they are totally adaptable */
+    border: 10px solid purple;
+    border-radius: 10px;
 }
 
 
@@ -21,3 +40,27 @@ div {
     width: 6.25%;
 }
 
+.slidecontainer {
+    margin-top: -100px;
+    padding: 10px 3px;
+    width: 150px;
+    opacity: 100%;
+    border: 10px solid purple;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    background-color: rgba(180, 180, 180, 0.9);
+    background-color: rgba(180, 180, 180, 0.8);
+    background-color: rgba(180, 180, 180, 0.7);
+    background-color: rgba(180, 180, 180, 0.6);
+    background-color: rgba(180, 180, 180, 0.5);
+    background-color: rgba(180, 180, 180, 0.4);
+    background-color: rgba(180, 180, 180, 0.3);
+    background-color: rgba(180, 180, 180, 0.2);
+    background-color: rgba(180, 180, 180, 0.1);
+    background-color: rgba(180, 180, 180, 0.0);
+}
